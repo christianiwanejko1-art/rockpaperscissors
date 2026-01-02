@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Rock Paper Scissors</title>
+    </head>
+    <body>
+        <script>
+            function getComputerChoice(){
+                let decide = Math.floor(Math.random() * 3)
+                if (decide === 0){
+                    return "Rock"
+                } else if (decide === 1){
+                    return "Paper"
+                } else return "Scissors"
+            }
+
+            console.log(getComputerChoice())
+            let human = prompt('Rock, paper or scissors?')
+            human
+            function getHumanChoice(human){
+                return human
+            }
+            console.log(getHumanChoice(human))
+            
+        </script>
+    </body>
+</html>
